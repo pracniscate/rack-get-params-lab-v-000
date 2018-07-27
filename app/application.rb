@@ -32,6 +32,8 @@ class Application
         resp.write "added #{items_to_be_added}"
       else
         resp.write "We don't have that item"
+      end
+      
     else
       resp.write "Path Not Found"
     end
